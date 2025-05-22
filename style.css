@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.logo{
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    color: rgb(72, 7, 252);
+    font-weight: bold;
+    line-height: 70px;
+}
+
+ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0.7px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.main_img {
+    width: 100%;
+    height: 300px;
+}
+
+.section1 {
+    padding-top: 70px;
+} 
+.img_text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    background-color: midnightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.wimage{
+    width: 100%;
+    height: 250px;
+}
+
+.container{
+    padding-top: 60px;
+}
+
+.tch{
+    width: 90%;
+    height: 200px;
+
+}
+
+.label_text{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding: 10px;
+}
+
+
+.input_fm{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid blue;
+      
+}
+
+.adm_int{
+    padding-top: 11px;
+}
+
+
+#text_area{
+    width: 30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1px solid blue;
+      
+}
+
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+
+}
+
+footer{
+     background-color: black;
+     height: 80px;
+     width: 100%;
+
+}
+
+.ft_txt{
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.adf{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
